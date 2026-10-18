@@ -3,37 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style1i.css">
+    <title>Dharshini | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <header>
-        <div class="logo">DHARSHINI</div>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="resume.html">Resume</a>
-                <a href="services.html">Services</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
 
-    </header>
- <!-- Hero Section -->
-    <section class="hero">
-        <div class="content-box">
-            <h1>DHARSHINI</h1>
-            <p>
-                Passionate Frontend Developer and Full Stack Developer,
-                crafting seamless and responsive web experiences.
+<header class="navbar">
+    <a class="logo" href="#home" class="logo"><span class="logo-icon">&lt;/&gt;</span>Dharshini<span>.dev</span></a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-text reveal">
+            <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span class="gradient">Dharshini</span></h1>
+            <h2>Python Full Stack Developer</h2>
+
+            <p class="description">
+                B.Sc Physics graduate passionate about web development.
+                I enjoy learning new technologies and building creative,
+                responsive websites.
             </p>
-            <a href="about.html" class="about-btn">ABOUT ME</a>
+
+            <div class="buttons">
+                <a href="#projects" class="btn primary">Explore Projects ↗</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+
+            <p class="status">● Aspiring Developer | Chennai</p>
+        </div>
+
+        <div class="visual reveal" id="visual">
+            <div class="float-card card-left">&lt;/&gt; CODE</div>
+
+            <div class="planet-scene" id="planetScene">
+                <div class="planet"></div>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+            </div>
+
+            <div class="float-card card-right">🐍 Python</div>
         </div>
     </section>
-          
-<i class="fa-solid fa-laptop-code"></i>
-<i class="fa-solid fa-code"></i>
-<i class="fa-solid fa-palette"></i>
+
+    <section class="section reveal" id="about">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About <span class="gradient">Me</span></h2>
+
+        <div class="glass about-card">
+            <h3>My Journey</h3>
+            <p>
+                Hello! I'm Dharshini, a B.Sc Physics graduate and an
+                aspiring Python Full Stack Developer. I'm improving
+                my coding skills and building projects to begin
+                my career in IT.
+            </p>
+
+            <div class="facts">
+                <div><strong>Education</strong><span>B.Sc Physics</span></div>
+                <div><strong>Graduation</strong><span>2025</span></div>
+                <div><strong>Location</strong><span>Chennai, India</span></div>
+                <div><strong>Career Goal</strong><span>Full Stack Developer</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section reveal" id="skills">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2 class="section-title">My <span class="gradient">Skills</span></h2>
+
+        <div class="skills-grid">
+            <article class="glass skill-card">
+                <span class="skill-icon">🌐</span>
+                <h3>HTML5</h3>
+                <p>Web structure</p>
+            </article>
+
+            <article class="glass skill-card">
+                <span class="skill-icon">🎨</span>
+                <h3>CSS3</h3>
+                <p>Design and animations</p>
+            </article>
+
+            <article class="glass skill-card">
+                <span class="skill-icon">⚡</span>
+                <h3>JavaScript</h3>
+                <p>Interactive websites</p>
+            </article>
+
+            <article class="glass skill-card">
+                <span class="skill-icon">🐍</span>
+                <h3>Python</h3>
+                <p>Programming</p>
+            </article>
+
+            <article class="glass skill-card">
+                <span class="skill-icon">🌱</span>
+                <h3>Django</h3>
+                <p>Backend development</p>
+            </article>
+
+            <article class="glass skill-card">
+                <span class="skill-icon">🗄️</span>
+                <h3>SQL</h3>
+                <p>Database fundamentals</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+        <p class="eyebrow">MY WORK</p>
+        <h2 class="section-title">Featured <span class="gradient">Projects</span></h2>
+
+        <div class="projects-grid">
+            <article class="glass project-card">
+                <span class="project-number">01</span>
+                <h3>Student Management System</h3>
+                <p>A project concept for managing student records.</p>
+                <span class="tech">Python · Django · SQL</span>
+            </article>
+
+            <article class="glass project-card">
+                <span class="project-number">02</span>
+                <h3>Personal Portfolio</h3>
+                <p>A responsive website showcasing my skills and journey.</p>
+                <span class="tech">HTML · CSS · JavaScript</span>
+                <a href="https://dharshini2878-stack.github.io/dharshini-portfolio/"
+                   target="_blank" rel="noopener noreferrer">
+                    View Existing Portfolio ↗
+                </a>
+            </article>
+
+            <article class="glass project-card">
+                <span class="project-number">03</span>
+                <h3>Interactive Dashboard</h3>
+                <p>A modern dashboard design concept with interactive elements.</p>
+                <span class="tech">HTML · CSS · JavaScript</span>
+            </article>
+        </div>
+
+        <p class="note">
+            The sample project descriptions are concepts. Replace them
+            with your actual completed projects when available.
+        </p>
+    </section>
+
+    <section class="section reveal" id="contact">
+        <div class="glass contact-card">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2 class="section-title">
+                Let's Build Something <span class="gradient">Great</span>
+            </h2>
+            <p>I'm looking forward to learning and growing in web development.</p>
+
+            <div class="buttons center">
+                <a class="btn primary"
+                   href="https://github.com/dharshini2878-stack"
+                   target="_blank" rel="noopener noreferrer">
+                    Visit GitHub ↗
+                </a>
+                <a class="btn secondary"
+                   href="https://dharshini2878-stack.github.io/dharshini-portfolio/"
+                   target="_blank" rel="noopener noreferrer">
+                    My Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Designed with 💜 by Dharshini</p>
+    <p>CODE · LEARN · BUILD · GROW</p>
+    <p>© <span id="year"></span> Dharshini</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
